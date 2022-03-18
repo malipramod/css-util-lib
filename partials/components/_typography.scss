@@ -18,3 +18,22 @@
     font-size: $font-size-body-pink;
     color: $text-color-pink;
 }
+
+.text-error{
+    font-size: $font-error-message;
+    color: $warning-color-error;
+}
+
+.text-warning{
+    font-size: $font-error-message;
+    color: $warning-color-warning;
+}
+
+.text-info{
+    font-size: $font-error-message;
+    color: $component-color-text-body;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
