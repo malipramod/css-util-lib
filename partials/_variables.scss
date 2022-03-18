@@ -1,0 +1,44 @@
+$brand-color-pink: #c0c;
+$brand-color-purple: #909;
+$brand-color-hover: rgba(155, 0, 155, 0.5);
+$brand-color-hover-inactive: #f7f7f7;
+
+//Font sizes
+$font-size-h1: 2.4rem;
+$font-size-h2: 1.6rem;
+$font-size-h3: 1.4rem;
+$font-size-body: 1.2rem;
+$font-size-body-pink: 1.3rem;
+$font-size-label: 1.2rem;
+$font-size-tooltip: 1.1rem;
+$font-error-message: 1.1rem;
+$font-icon-font-size: 1.8rem;
+
+//Font colors
+$text-color-pink: rgb(204, 0, 204);
+$text-color-white: #ffffff;
+
+//Component colors
+$component-color-primary: #990099;
+$component-color-text: #cc00cc;
+$component-color-text-heading: #333333;
+$component-color-text-body: #666666;
+$component-color-secondary: #666666;
+$component-color-primary-inactive: #d699d6;
+$component-color-secondary-inactive: #bababa;
+$component-color-tertiary: #ffffff;
+$line-color: #c4c4c4;
+
+//warning colors
+$warning-color-error: #ff0000;
+$warning-color-error-muted: #d36965;
+$warning-color-warning: #ff9103;
+$warning-color-success: #25bf58;
+$warning-color-success-muted: #60bb71;
+
+$base-padding: 1rem;
+$base-margin: 1rem;
+
+$base-border-thickness: 1px;
+$base-border-radius: 2rem;
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);

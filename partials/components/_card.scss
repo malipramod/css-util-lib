@@ -1,0 +1,23 @@
+.card{
+    display: block;
+    border: $base-border-thickness solid $component-color-secondary-inactive;
+    padding: 0rem 0.2rem;
+    box-shadow: $base-box-shadow;
+    .card-title{
+        margin-top: -0.9rem;
+        margin-left: 0.5rem;
+        background: $text-color-white;
+        font-size: $font-size-body;
+        width: fit-content;
+        padding: 0rem 0.2rem;
+    }
+
+    .card-body{
+        margin: 0rem 0.5rem;
+        width: calc(100% - 1rem);
+
+        a{
+            text-decoration: underline;
+        }
+    }
+}
