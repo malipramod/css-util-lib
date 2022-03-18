@@ -7,7 +7,7 @@
     $border-size: 0px,
     $hover-color: #{$component-color-secondary}
 ) {
-    height: $height;
+    min-height: $height;
     background: $bg-color 0% 0% no-repeat padding-box;
     display: flex;
     align-items: center;
