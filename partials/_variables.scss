@@ -7,6 +7,7 @@ $brand-color-hover-inactive: #f7f7f7;
 //Font colors
 $text-color-pink: rgb(204, 0, 204);
 $text-color-white: #ffffff;
+$text-color-black: #000000;
 
 //Component colors
 $component-color-primary: #990099;
@@ -17,6 +18,7 @@ $component-color-secondary: #666666;
 $component-color-primary-inactive: #d699d6;
 $component-color-secondary-inactive: #bababa;
 $component-color-tertiary: #ffffff;
+$tertiary-border: #ccc;
 $line-color: #c4c4c4;
 
 //warning colors
@@ -52,6 +54,7 @@ $font-size-body-pink: 1.3rem;
 $font-size-label: 1.2rem;
 // $font-size-tooltip: 1.1rem;
 $font-error-message: 1.1rem;
+$small-button-height: 2.5rem;
 // $font-icon-font-size: 1.8rem;
 
 //Font size map
@@ -71,3 +74,53 @@ $base-margin: 1rem;
 $base-border-thickness: 1px;
 $base-border-radius: 2rem;
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+$buttons: (
+    primary: (
+        bg-color: $component-color-primary,
+        color: $text-color-white,
+        border-color: $component-color-primary,
+        font-size: $font-size-h2,
+        hover-color: $brand-color-hover
+    ),
+    secondary: (
+        bg-color: $component-color-text-heading,
+        color: $text-color-white,
+        border-color: $component-color-secondary,
+        font-size: $font-size-h2,
+        hover-color: $component-color-secondary
+    ),
+    tertiary: (
+        bg-color: $component-color-tertiary,
+        color: $text-color-pink,
+        border-color: $tertiary-border,
+        font-size: $font-size-h2,
+        border-size: 1px,
+        hover-color: lighten($text-color-black, 95%)
+    ),
+    primary-small: (
+        bg-color: $component-color-primary,
+        color: $text-color-white,
+        border-color: $component-color-primary,
+        font-size: $font-size-h3,
+        height: $small-button-height,
+        hover-color: $brand-color-hover
+    ),
+    secondary-small: (
+        bg-color: $component-color-text-heading,
+        color: $text-color-white,
+        border-color: $component-color-secondary,
+        font-size: $font-size-h3,
+        height: $small-button-height,
+        hover-color: $component-color-secondary
+    ),
+    tertiary-small: (
+        bg-color: $component-color-tertiary,
+        color: $text-color-pink,
+        border-color: $tertiary-border,
+        font-size: $font-size-h3,
+        border-size: 1px,
+        height: $small-button-height,
+        hover-color: lighten($text-color-black, 95%)
+    )
+)

@@ -1,0 +1,43 @@
+@mixin btn(
+    $height: 3rem,
+    $bg-color: #{$component-color-secondary},
+    $color: #{$text-color-white},
+    $border: #{$component-color-secondary},
+    $font-size: $font-size-h2,
+    $border-size: 0px,
+    $hover-color: #{$component-color-secondary}
+) {
+    height: $height;
+    background: $bg-color 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+    font-size: $font-size;
+    border: #{$border-size} #{$border} solid;
+    border-color: #{$border};
+    color: $color;
+    cursor: pointer;
+    font-family: inherit;
+    &:hover{
+        background-color: $hover-color;
+    }
+}
+
+.btn {
+    @include btn;
+}
+
+@each $key, $val in $buttons{
+    .btn-#{$key} {
+        @include btn(
+            map-get($map: $val, $key: 'height'),
+            map-get($map: $val, $key: 'bg-color'),
+            map-get($map: $val, $key: 'color'),
+            map-get($map: $val, $key: 'border-color'),
+            map-get($map: $val, $key: 'font-size'),
+            map-get($map: $val, $key: 'border-size'),
+            map-get($map: $val, $key: 'hover-color')
+        );
+    }
+}
