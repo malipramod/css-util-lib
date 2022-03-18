@@ -1,42 +1,7 @@
-.text-h1{
-    font-size: $font-size-h1;
-}
-
-.text-h2{
-    font-size: $font-size-h2;
-}
-
-.text-h3{
-    font-size: $font-size-h3;
-}
-
-.text-body{
-    font-size: $font-size-body;
-}
-
-.text-body-pink{
-    font-size: $font-size-body-pink;
-    color: $text-color-pink;
-}
-
-.text-error{
-    font-size: $font-error-message;
-    color: $warning-color-error;
-}
-
-.text-warning{
-    font-size: $font-error-message;
-    color: $warning-color-warning;
-}
-
-.text-success{
-    font-size: $font-error-message;
-    color: $warning-color-success;
-}
-
-.text-info{
-    font-size: $font-error-message;
-    color: $warning-color-info;
+@each $key, $val in $font-sizes{
+    .text-#{$key} {
+        font-size: #{$val};
+    }
 }
 
 .text-underline{

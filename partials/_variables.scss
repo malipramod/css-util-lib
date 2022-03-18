@@ -1,18 +1,8 @@
+//Brand colors
 $brand-color-pink: #c0c;
 $brand-color-purple: #909;
 $brand-color-hover: rgba(155, 0, 155, 0.5);
 $brand-color-hover-inactive: #f7f7f7;
-
-//Font sizes
-$font-size-h1: 2.4rem;
-$font-size-h2: 1.6rem;
-$font-size-h3: 1.4rem;
-$font-size-body: 1.2rem;
-$font-size-body-pink: 1.3rem;
-$font-size-label: 1.2rem;
-$font-size-tooltip: 1.1rem;
-$font-error-message: 1.1rem;
-$font-icon-font-size: 1.8rem;
 
 //Font colors
 $text-color-pink: rgb(204, 0, 204);
@@ -36,6 +26,44 @@ $warning-color-warning: #ff9103;
 $warning-color-success: #25bf58;
 $warning-color-info: #2196f3;
 $warning-color-success-muted: #60bb71;
+
+$colors: (
+    pink: $brand-color-pink,
+    purple: $brand-color-purple,
+    hover: $brand-color-hover,
+    inactive: $brand-color-hover-inactive,
+    line: $line-color,
+    warning: $warning-color-warning,
+    success: $warning-color-success,
+    info: $warning-color-info,
+    error: $warning-color-error,
+    success-muted: $warning-color-success-muted,
+    error-muted: $warning-color-error-muted,
+    white: $text-color-white,
+    tertiary: $component-color-tertiary
+);
+
+//Font sizes
+$font-size-h1: 2.4rem;
+$font-size-h2: 1.6rem;
+$font-size-h3: 1.4rem;
+$font-size-body: 1.2rem;
+$font-size-body-pink: 1.3rem;
+$font-size-label: 1.2rem;
+// $font-size-tooltip: 1.1rem;
+$font-error-message: 1.1rem;
+// $font-icon-font-size: 1.8rem;
+
+//Font size map
+$font-sizes: (
+    h1: $font-size-h1,
+    h2: $font-size-h2,
+    h3: $font-size-h3,
+    body: $font-size-body,
+    body-pink: $font-size-body-pink,
+    label: $font-size-label,
+    error: $font-error-message
+);
 
 $base-padding: 1rem;
 $base-margin: 1rem;
