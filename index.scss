@@ -1,0 +1,10 @@
+$color: "red";
+h1 {
+    a {
+        font-size: 10px;
+        &:hover {
+            font-size: 12px;
+            color: $color;
+        }
+    }
+}
