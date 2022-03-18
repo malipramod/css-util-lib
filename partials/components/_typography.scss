@@ -29,9 +29,14 @@
     color: $warning-color-warning;
 }
 
+.text-success{
+    font-size: $font-error-message;
+    color: $warning-color-success;
+}
+
 .text-info{
     font-size: $font-error-message;
-    color: $component-color-text-body;
+    color: $warning-color-info;
 }
 
 .text-underline{
