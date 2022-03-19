@@ -1,0 +1,10 @@
+.anchor {
+    text-decoration: none;
+    border: none;
+    color: $brand-color-purple;
+    cursor: pointer;
+    font-size: $font-size-body;
+    &:hover {
+        color: $brand-color-hover;
+    }
+}
