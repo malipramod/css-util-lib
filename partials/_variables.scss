@@ -1,33 +1,33 @@
 //Brand colors
-$brand-color-pink: #c0c;
-$brand-color-purple: #909;
-$brand-color-hover: rgba(155, 0, 155, 0.5);
-$brand-color-hover-inactive: #f7f7f7;
+$brand-color-pink: #c0c !default;
+$brand-color-purple: #909 !default;
+$brand-color-hover: rgba(155, 0, 155, 0.5) !default;
+$brand-color-hover-inactive: #f7f7f7 !default;
 
 //Font colors
-$text-color-pink: rgb(204, 0, 204);
-$text-color-white: #ffffff;
-$text-color-black: #000000;
+$text-color-pink: rgb(204, 0, 204) !default;
+$text-color-white: #ffffff !default;
+$text-color-black: #000000 !default;
 
 //Component colors
-$component-color-primary: #990099;
-$component-color-text: #cc00cc;
-$component-color-text-heading: #333333;
-$component-color-text-body: #666666;
-$component-color-secondary: #666666;
-$component-color-primary-inactive: #d699d6;
-$component-color-secondary-inactive: #bababa;
-$component-color-tertiary: #ffffff;
-$tertiary-border: #ccc;
-$line-color: #c4c4c4;
+$component-color-primary: #990099 !default;
+$component-color-text: #cc00cc !default;
+$component-color-text-heading: #333333 !default;
+$component-color-text-body: #666666 !default;
+$component-color-secondary: #666666 !default;
+$component-color-primary-inactive: #d699d6 !default;
+$component-color-secondary-inactive: #bababa !default;
+$component-color-tertiary: #ffffff !default;
+$tertiary-border: #ccc !default;
+$line-color: #c4c4c4 !default;
 
 //warning colors
-$warning-color-error: #ff0000;
-$warning-color-error-muted: #d36965;
-$warning-color-warning: #ff9103;
-$warning-color-success: #25bf58;
-$warning-color-info: #2196f3;
-$warning-color-success-muted: #60bb71;
+$warning-color-error: #ff0000 !default;
+$warning-color-error-muted: #d36965 !default;
+$warning-color-warning: #ff9103 !default;
+$warning-color-success: #25bf58 !default;
+$warning-color-info: #2196f3 !default;
+$warning-color-success-muted: #60bb71 !default;
 
 $colors: (
     pink: $brand-color-pink,
@@ -46,16 +46,16 @@ $colors: (
 );
 
 //Font sizes
-$font-size-h1: 2.4rem;
-$font-size-h2: 1.6rem;
-$font-size-h3: 1.4rem;
-$font-size-body: 1.2rem;
-$font-size-body-pink: 1.3rem;
-$font-size-label: 1.2rem;
-// $font-size-tooltip: 1.1rem;
-$font-error-message: 1.1rem;
-$small-button-height: 2.5rem;
-// $font-icon-font-size: 1.8rem;
+$font-size-h1: 2.4rem !default;
+$font-size-h2: 1.6rem !default;
+$font-size-h3: 1.4rem !default;
+$font-size-body: 1.2rem !default;
+$font-size-body-pink: 1.3rem !default;
+$font-size-label: 1.2rem !default;
+// $font-size-tooltip: 1.1rem !default;
+$font-error-message: 1.1rem !default;
+$small-button-height: 2.5rem !default;
+// $font-icon-font-size: 1.8rem !default;
 
 //Font size map
 $font-sizes: (
@@ -68,12 +68,12 @@ $font-sizes: (
     error: $font-error-message
 );
 
-$base-padding: 1rem;
-$base-margin: 1rem;
+$base-padding: 1rem !default;
+$base-margin: 1rem !default;
 
-$base-border-thickness: 1px;
-$base-border-radius: 2rem;
-$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+$base-border-thickness: 1px !default;
+$base-border-radius: 2rem !default;
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
 
 $buttons: (
     primary: (
