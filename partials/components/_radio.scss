@@ -1,0 +1,12 @@
+.radio {
+    width: 1.6rem;
+    height: 1.5rem;
+    border-bottom: none;
+    margin: auto 0rem;
+    &:checked {
+        filter: hue-rotate(60deg);
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
