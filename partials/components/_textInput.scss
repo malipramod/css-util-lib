@@ -1,0 +1,28 @@
+@mixin textBox($width: $inputWidth) {
+    color: $component-color-text;
+    border: none;
+    border-bottom: 1px solid $line-color;
+    transition: box-shadow 150ms ease-out;
+    height: 2.1rem;
+    width: $width;
+    font-size: $font-size-body;
+    &:focus {
+        box-shadow: 0 2px 0 0 $component-color-text;
+        border: none;
+        outline: none;
+        label {
+            transform: translateY(-3rem);
+            font-size: $font-size-label;
+        }
+    }
+}
+
+.text-input {
+    @include textBox;
+}
+
+@each $key, $value in $textInputs {
+    .text-input-#{$key} {
+        @include textBox(map-get($map: $value, $key: "width"));
+    }
+}

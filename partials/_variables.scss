@@ -123,4 +123,17 @@ $buttons: (
         height: $small-button-height,
         hover-color: lighten($text-color-black, 95%)
     )
+);
+
+$smallInputWidth: 20rem !default;
+$mediumInputWidth: 29rem !default;
+$inputWidth: 35rem !default;
+
+$textInputs: (
+    sm: (
+        width: $smallInputWidth,
+    ),
+    md: (
+        width: $mediumInputWidth,
+    ),
 )
